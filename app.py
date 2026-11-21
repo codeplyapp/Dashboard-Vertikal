@@ -754,9 +754,7 @@ def main() -> None:
     st.markdown(
         f"""
         <div class="note" style="margin-top:24px;border-top:1px solid {UI_COLORS['grid']};padding-top:12px">
-            Dashboard 7 KAIH · SMAN 2 Taruna Bhayangkara Jawa Timur ·
-            data {date_id(min(data['date']))}–{date_id(max(data['date']))} ·
-            seluruh angka dihitung ulang dari dataset anonim.
+            Dashboard 7 KAIH · SMAN 2 Taruna Bhayangkara Jawa Timur
         </div>
         """,
         unsafe_allow_html=True,
