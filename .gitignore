@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Data sumber (mengandung kode responden / identitas) - JANGAN di-commit
+*.xlsx
+*.xls
+*.pdf
+*.pptx
+
+# Kecualikan data anonim hasil build
+!data/*.json
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit.pid
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

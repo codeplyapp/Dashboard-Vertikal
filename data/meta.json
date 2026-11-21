@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "total_entries": 232,
+  "unique_students": 203,
+  "date_min": "2026-10-28",
+  "date_max": "2026-11-14",
+  "battalion_counts": {
+    "X": 138,
+    "XI": 47,
+    "XII": 47
+  },
+  "source_file": "DATA EVALUASI G7KAIH SMAN 2 TARUNA BHAYANGKARA JAWA TIMUR.xlsx",
+  "source_sha256": "b5057052c13f9d573319d68066caaae7eab81cd7982adcb54849eb2e5ae61a02",
+  "generated_at": "2026-11-21T18:28:28+07:00"
+}
