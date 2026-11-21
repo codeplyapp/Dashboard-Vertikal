@@ -47,21 +47,47 @@ Secara umum, indeks ketercapaian 7 KAIH mencapai **81,7 dari skala 100**. Pembia
 **Subjudul:** Jelaskan tampilan, fungsi, dan manfaat dashboard yang telah dibuat.
 
 ### 1. Preview Dashboard
-*(Sisipkan `docs/screenshots/desktop-1440.png`, `docs/screenshots/tablet-1024.png`, dan `docs/screenshots/mobile-390.png`)*
+*(Sisipkan tangkapan layar responsif: `docs/screenshots/desktop-1440.png` sebagai gambar utama, didampingi `docs/screenshots/tablet-1024.png` dan `docs/screenshots/mobile-390.png`)*
 
 ### 2. Tautan Dashboard & Repositori
-- **URL Dashboard Publik:** *(Tempelkan URL Streamlit Community Cloud setelah dideploy)*
+- **URL Dashboard Publik:** *(Tempelkan URL Streamlit Community Cloud setelah aplikasi aktif)*
 - **Repository GitHub:** `https://github.com/codeplyapp/Dashboard-Vertikal`
 
-### 3. Desain & Fungsi Unggulan
-- **Single Source of Truth:** Semua metrik dihitung secara dinamis dari dataset anonim. Zero hard-coded values.
-- **Filter Global Reaktif:** Pengguna dapat memilah data menurut Batalyon (X, XI, XII), rentang tanggal pengisian, atau fokus pada kebiasaan spesifik secara instan.
+---
+
+### 3. Teks untuk Kotak "PENJELASAN DASHBOARD" di Slide PowerPoint
+*(Salin teks ringkas dan padat ini langsung ke dalam kotak teks slide PPTX)*
+
+**A. Informasi yang Ditampilkan:**
+- **Ringkasan Eksekutif (4 Kartu KPI):** Menampilkan total entri terfilter, Indeks 7KAIH komposit (skala 0–100), kebiasaan kekuatan utama sekolah, serta kebiasaan yang menjadi prioritas pembinaan.
 - **Visualisasi Multidimensi:**
-  - *100% Stacked Bar* untuk proporsi 4 skala instrumen.
-  - *Heatmap Matriks Batalyon* & *Grouped Bar* untuk perbandingan lintas angkatan.
-  - *Priority Matrix (4 Kuadran)* memetakan kebiasaan yang butuh aksi segera vs dipertahankan.
-  - *Radar Profil Batalyon* untuk membandingkan indeks karakter holistik.
-- **Aksesibilitas & Kredibilitas:** Skema warna Navy & Gold Taruna Bhayangkara dengan rasio kontras WCAG AA, fitur unduh CSV data terfilter, dan kartu verifikasi integritas data (*zero missing values*).
+  1. *100% Stacked Bar*: Sebaran 4 skala jawaban (Hampir selalu, Sering, Jarang, Tidak Pernah) untuk 7 kebiasaan terhadap target sekolah 90%.
+  2. *Gauge Chart*: Posisi indeks ketercapaian karakter sekolah secara visual.
+  3. *Heatmap & Grouped Bar*: Matriks tingkat perhatian lintas angkatan (Kelas X, XI, XII).
+  4. *Radar Chart*: Perbandingan profil keseimbangan 7 pilar karakter antarbatalyon.
+  5. *Priority Matrix (4 Kuadran)*: Pemetaan aksi (Prioritas Tinggi, Waspada, Pantau, Pertahankan).
+  6. *Tren Waktu & 4 Gelombang*: Dinamika pengisian harian dan kurva akumulasi entri.
+- **Transparansi & Rekapitulasi:** Tabel data lengkap dengan audit integritas nol data hilang (*zero missing values*) serta fitur unduh CSV.
+
+**B. Fitur & Filter yang Tersedia:**
+- **Filter Multi-Kriteria Reaktif:** Pengguna dapat memfilter berdasarkan Batalyon (X, XI, XII), rentang tanggal survei (28 Okt–14 Nov 2026), serta fokus kebiasaan tertentu. Seluruh KPI, grafik, tabel, dan narasi terupdate otomatis dalam waktu < 2 detik.
+- **Tombol Reset Filter & Status Aktif:** Mengembalikan konfigurasi awal dan merangkum jumlah sampel aktif secara real-time.
+- **Penelusur Instrumen Detail:** Menampilkan teks pertanyaan kuesioner asli beserta distribusi frekuensi absolut dan persentase per skala Likert.
+- **Generator Narasi & Rekomendasi Dinamis:** Menghasilkan insight dan rekomendasi operasional otomatis berbasis filter aktif.
+
+**C. Manfaat & Keunggulan bagi Sekolah:**
+- **Single Source of Truth:** Semua metrik dihitung langsung dari dataset anonim mentah tanpa angka manual (*zero hard-coded numbers*).
+- **Aksi Cepat & Tepat Sasaran:** Pembina asrama dapat langsung mengetahui bahwa Kelas XI memerlukan perhatian khusus pada jam istirahat malam tanpa harus mengolah manual ratusan baris data.
+- **Aksesibilitas & Standar Rekayasa:** Palet resmi Navy & Gold Taruna Bhayangkara berstandar kontras WCAG AA, layout responsif (Desktop, Tablet, Mobile), serta didukung 39 unit test otomatis (*100% pass*).
+
+---
+
+### 4. Naskah Tambahan untuk Penjelasan / Presentasi Lisan Tim (Oral Pitching)
+Bila dewan juri meminta penjelasan lebih mendalam saat presentasi, tim dapat menyampaikan poin-poin berikut:
+1. *"Dashboard ini kami rancang bukan sekadar galeri grafik, melainkan sistem pendukung keputusan (Decision Support System) bagi sekolah berasrama."*
+2. *"Keunggulan utama kami terletak pada Priority Matrix 4 Kuadran yang langsung mengelompokkan kebiasaan mana yang harus segera diintervensi (Tidur Cepat) dan mana yang menjadi kekuatan budaya yang harus dipertahankan (Ibadah dan Olahraga)."*
+3. *"Kami membedakan analisis antarbatalyon menggunakan Heatmap, sehingga sekolah tidak menerapkan kebijakan yang seragam. Kelas XI membutuhkan penyesuaian jadwal belajar malam, sedangkan Kelas X membutuhkan pendampingan adaptasi konsumsi gizi."*
+4. *"Seluruh aplikasi dibangun dengan arsitektur perangkat lunak yang bersih (Clean Architecture): logika matematika murni terpisah dari antarmuka Streamlit dan telah divalidasi oleh 39 unit test, sehingga akurasi data terjamin 100%."*
 
 ---
 
