@@ -149,3 +149,4 @@ Secara umum, indeks ketercapaian 7 KAIH mencapai **81,7 dari skala 100**. Pembia
    - *Target:* Meningkatkan kepuasan makan sehat hingga di atas 85% respons positif.
 3. **Pemberdayaan Taruna Tutor Sebaya (Peer Mentoring):**
    - *Aksi:* Memanfaatkan tingginya rasa solidaritas (*Bermasyarakat: 87,93% positif*) dengan membentuk kelompok belajar sebaya di asrama untuk membantu taruna yang kesulitan akademik agar tidak perlu begadang laris larut malam.
+

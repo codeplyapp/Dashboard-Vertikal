@@ -134,3 +134,4 @@ docker run -d -p 8501:8501 --name dashboard-7kaih dashboard-7kaih
 **Tim VERTIKAL SMA 2026**  
 SMAN 2 Taruna Bhayangkara Jawa Timur  
 *Dashboard Pemantauan 7 Kebiasaan Anak Indonesia Hebat*
+
